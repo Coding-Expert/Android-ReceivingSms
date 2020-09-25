@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1036697841676",
+    "firebase_url": "https://smsapp-54761.firebaseio.com",
+    "project_id": "smsapp-54761",
+    "storage_bucket": "smsapp-54761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036697841676:android:a1ba62b016ca7f60f8be29",
+        "android_client_info": {
+          "package_name": "com.sms.receivingsms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036697841676-rvfai4fcjdc9j3cvp8qd61s1ofp1pf2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFLL54uOmL2FjsW6CP1ni5EkU4XYJKZlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036697841676-rvfai4fcjdc9j3cvp8qd61s1ofp1pf2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

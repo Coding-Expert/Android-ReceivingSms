@@ -1,0 +1,4 @@
+#Thu Sep 24 12:33:55 CST 2020
+base.0=E\:\\workspace\\android_workspace\\ReceivingSms\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

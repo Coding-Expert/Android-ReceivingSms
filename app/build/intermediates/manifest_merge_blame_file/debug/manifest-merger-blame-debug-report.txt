@@ -1,0 +1,302 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sms.receivingsms"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:6:5-67
+12-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+13-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:7:5-70
+13-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:7:22-67
+14    <uses-permission android:name="android.permission.READ_SMS" />
+14-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:8:5-67
+14-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+15-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:9:5-70
+15-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:9:22-67
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:10:5-75
+16-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:10:22-72
+17    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+17-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:11:5-77
+17-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:12:5-79
+18-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:25:5-68
+19-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:25:22-65
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+21
+22    <application
+22-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:14:5-85:19
+23        android:allowBackup="true"
+23-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:15:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1c02a75ee71745896421482ddb994222\core-1.3.1\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:16:9-43
+27        android:label="@string/app_name"
+27-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:17:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:18:9-54
+29        android:supportsRtl="true"
+29-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:19:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:20:9-40
+32        <activity android:name="com.sms.receivingsms.ReceivingSmsActivity" >
+32-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:21:9-26:20
+32-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:21:19-55
+33            <intent-filter>
+33-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:22:13-25:29
+34                <category android:name="android.intent.category.APP_MESSAGING" />
+34-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:23:17-82
+34-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:23:27-79
+35                <category android:name="android.intent.category.DEFAULT" />
+35-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:17-76
+35-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:27-73
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.sms.receivingsms.LogInActivity" />
+38-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:27:9-51
+38-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:27:19-48
+39        <activity android:name="com.sms.receivingsms.RegisterActivity" />
+39-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:28:9-54
+39-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:28:19-51
+40        <activity android:name="com.sms.receivingsms.MainActivity" >
+40-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:29:9-35:20
+40-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:29:19-47
+41            <intent-filter>
+41-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:30:13-34:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:31:17-69
+42-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:31:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:32:17-77
+44-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:32:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <receiver
+48-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:37:9-44:20
+49            android:name="com.sms.receivingsms.SmsReceiver"
+49-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:38:13-40
+50            android:permission="android.permission.BROADCAST_SMS" >
+50-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:39:13-66
+51            <intent-filter>
+51-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:40:13-43:29
+52                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+52-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:41:17-81
+52-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:41:25-78
+53                <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED" /> -->
+54            </intent-filter>
+55        </receiver>
+56        <receiver
+56-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:45:9-53:20
+57            android:name="com.sms.receivingsms.MmsReceiver"
+57-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:46:13-40
+58            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+58-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:47:13-71
+59            <intent-filter>
+59-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:48:13-52:29
+60                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+60-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:49:17-86
+60-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:49:25-83
+61
+62                <data android:mimeType="application/vnd.wap.mms-message" />
+62-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+62-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:23-73
+63            </intent-filter>
+64        </receiver>
+65
+66        <activity android:name="com.sms.receivingsms.ComposeSmsActivity" >
+66-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:55:9-68:20
+66-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:55:19-53
+67            <intent-filter>
+67-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:56:13-67:29
+68                <action android:name="android.intent.action.SEND" />
+68-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:57:17-69
+68-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:57:25-66
+69                <action android:name="android.intent.action.SENDTO" />
+69-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:58:17-71
+69-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:58:25-68
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:17-76
+71-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:27-73
+72                <category android:name="android.intent.category.BROWSABLE" />
+72-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:61:17-78
+72-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:61:27-75
+73
+74                <data android:scheme="sms" />
+74-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+74-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+75                <data android:scheme="smsto" />
+75-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+75-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+76                <data android:scheme="mms" />
+76-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+76-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+77                <data android:scheme="mmsto" />
+77-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+77-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+78            </intent-filter>
+79        </activity>
+80
+81        <service
+81-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:70:9-84:19
+82            android:name="com.sms.receivingsms.HeadlessSmsSendService"
+82-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:71:13-51
+83            android:exported="true"
+83-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:72:13-36
+84            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" >
+84-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:73:13-77
+85            <intent-filter>
+85-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:74:13-83:29
+86                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+86-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:75:17-84
+86-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:75:25-81
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:17-76
+88-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:27-73
+89
+90                <data android:scheme="sms" />
+90-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+90-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+91                <data android:scheme="smsto" />
+91-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+91-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+92                <data android:scheme="mms" />
+92-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+92-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+93                <data android:scheme="mmsto" />
+93-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+93-->E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+94            </intent-filter>
+95        </service>
+96        <service
+96-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:13:9-19:19
+97            android:name="com.google.firebase.components.ComponentDiscoveryService"
+97-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:14:13-84
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+99            android:exported="false" >
+99-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:15:13-37
+100            <meta-data
+100-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:16:13-18:85
+101                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+101-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:17:17-115
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:18:17-82
+103            <meta-data
+103-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+104                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+104-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+107                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+107-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+109        </service>
+110
+111        <receiver
+111-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+112            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+112-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+114            android:exported="false" >
+114-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+115        </receiver>
+116
+117        <service
+117-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+118            android:name="com.google.android.gms.measurement.AppMeasurementService"
+118-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+120            android:exported="false" />
+120-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+121        <service
+121-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+122            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+122-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+126
+127        <provider
+127-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+128            android:name="com.google.firebase.provider.FirebaseInitProvider"
+128-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+129            android:authorities="com.sms.receivingsms.firebaseinitprovider"
+129-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+133
+134        <meta-data
+134-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+135            android:name="com.google.android.gms.version"
+135-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+137
+138        <service
+138-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:29:9-35:19
+139            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:30:13-103
+140            android:exported="false" >
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:31:13-37
+141            <meta-data
+141-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:32:13-34:39
+142                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+142-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:33:17-94
+143                android:value="cct" />
+143-->[com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:34:17-36
+144        </service>
+145        <service
+145-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:26:9-30:19
+146            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+146-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:27:13-117
+147            android:exported="false"
+147-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:28:13-37
+148            android:permission="android.permission.BIND_JOB_SERVICE" >
+148-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:29:13-69
+149        </service>
+150
+151        <receiver
+151-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:32:9-34:40
+152            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+152-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:33:13-132
+153            android:exported="false" />
+153-->[com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:34:13-37
+154    </application>
+155
+156</manifest>

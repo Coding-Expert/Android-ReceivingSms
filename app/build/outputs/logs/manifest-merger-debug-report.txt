@@ -1,0 +1,517 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fd5b9c2fc46b03d2449f3cbc8a54e5ef\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e838b5481c492ceedc5ca5a15f2a3bf2\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jaredrummler:android-device-names:1.0.9] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e6b5f959f2224a445082ac7a40269874\android-device-names-1.0.9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.loopj.android:android-async-http:1.4.10] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f5fa066fac9619c2d8e82a9aaf80fc7c\android-async-http-1.4.10\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e62b664a7da8179b681e0ba5e128db88\firebase-analytics-17.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c2389d76c309809b40964003c177fc19\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\51f01b99611ea10753ac1e1fd80182c8\play-services-measurement-sdk-17.5.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\458af15f79be616d1c5c4272ae43fbf1\firebase-installations-interop-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\7616b037e793989e9647a36da43e4bdd\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1b968f892df326498addd929eef924f8\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9b88e76ffb5f34f23408be424f3fe652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\092dbe7a70cec105ef7807f7046290d1\play-services-measurement-base-17.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f8a04b33ef4231bcd4a5d4ab139094a3\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\b53f737ac92b11e5fa86f4776dabfdb5\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\d3e7feb23e7fc1eba46d7c93e34af8cd\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\810284fda6e539934c1cb5174efc60ee\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\4016cb2b88ac7a9a089e243d0b0fd703\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2aa083799241098451a46889113d9d53\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\0c3525bd17c323d710c5864877287245\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9bb895826294ca331928451bbfb194d1\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\344783dcfa5992b0ba857801308c9fa3\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\aff86238ec3560c290c4989e6b531796\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a3c883bcf8c07e708c3340bd7a08dbf0\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1c02a75ee71745896421482ddb994222\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e477473681566b1c47f5aa9f6f8fc7b6\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\693445e3b20601b033da5481a8cfa0c6\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c7f5b61e7e935dbc33e070459719d712\firebase-encoders-json-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a555939c01c78319a3857145138549dc\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fb8536e688627912ce315a69faedf9bf\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c433a1a3eccb0c53eb8336f30cb8a55d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\0f3a5b65568e8218397e87f0d7d489a4\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a535ce4632b695e63434363e0a539568\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\ade1f8f7398959b97cd1e3f73b832e2e\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\523f04c89f6ac21800ce0da45e990780\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2a59c6f74ceb23eb92132a9b466446f9\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\d633bba8af30772bf4a18962bf1c33d7\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\09c38ea0049218b0fef5edc7e5d97d17\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\cad7217547ddeb81a4a60b2478eaa044\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+	package
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:1-87:12
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.loopj.android:android-async-http:1.4.10] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f5fa066fac9619c2d8e82a9aaf80fc7c\android-async-http-1.4.10\AndroidManifest.xml:9:5-67
+MERGED from [com.loopj.android:android-async-http:1.4.10] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f5fa066fac9619c2d8e82a9aaf80fc7c\android-async-http-1.4.10\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:7:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:9:22-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:11:22-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:12:22-76
+application
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:14:5-85:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fd5b9c2fc46b03d2449f3cbc8a54e5ef\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fd5b9c2fc46b03d2449f3cbc8a54e5ef\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e62b664a7da8179b681e0ba5e128db88\firebase-analytics-17.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e62b664a7da8179b681e0ba5e128db88\firebase-analytics-17.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\51f01b99611ea10753ac1e1fd80182c8\play-services-measurement-sdk-17.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\51f01b99611ea10753ac1e1fd80182c8\play-services-measurement-sdk-17.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\7616b037e793989e9647a36da43e4bdd\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\7616b037e793989e9647a36da43e4bdd\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1b968f892df326498addd929eef924f8\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1b968f892df326498addd929eef924f8\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9b88e76ffb5f34f23408be424f3fe652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9b88e76ffb5f34f23408be424f3fe652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\092dbe7a70cec105ef7807f7046290d1\play-services-measurement-base-17.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\092dbe7a70cec105ef7807f7046290d1\play-services-measurement-base-17.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f8a04b33ef4231bcd4a5d4ab139094a3\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f8a04b33ef4231bcd4a5d4ab139094a3\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1c02a75ee71745896421482ddb994222\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1c02a75ee71745896421482ddb994222\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a555939c01c78319a3857145138549dc\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a555939c01c78319a3857145138549dc\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1c02a75ee71745896421482ddb994222\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.sms.receivingsms.ReceivingSmsActivity
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:21:9-26:20
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:21:19-55
+intent-filter#category:name:android.intent.category.APP_MESSAGING+category:name:android.intent.category.DEFAULT
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:22:13-25:29
+category#android.intent.category.APP_MESSAGING
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:23:27-79
+category#android.intent.category.DEFAULT
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:24:27-73
+activity#com.sms.receivingsms.LogInActivity
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:27:9-51
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:27:19-48
+activity#com.sms.receivingsms.RegisterActivity
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:28:9-54
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:28:19-51
+activity#com.sms.receivingsms.MainActivity
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:29:9-35:20
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:29:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:32:27-74
+receiver#com.sms.receivingsms.SmsReceiver
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:37:9-44:20
+	android:permission
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:39:13-66
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:38:13-40
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:40:13-43:29
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:41:17-81
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:41:25-78
+receiver#com.sms.receivingsms.MmsReceiver
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:45:9-53:20
+	android:permission
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:47:13-71
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:46:13-40
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:48:13-52:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:49:17-86
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:49:25-83
+data
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:17-76
+	android:scheme
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:63:23-43
+	android:mimeType
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:51:23-73
+activity#com.sms.receivingsms.ComposeSmsActivity
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:55:9-68:20
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:55:19-53
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SENDTO+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:56:13-67:29
+action#android.intent.action.SEND
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:57:25-66
+action#android.intent.action.SENDTO
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:58:17-71
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:58:25-68
+category#android.intent.category.BROWSABLE
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:61:17-78
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:61:27-75
+service#com.sms.receivingsms.HeadlessSmsSendService
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:70:9-84:19
+	android:exported
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:72:13-36
+	android:permission
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:73:13-77
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:71:13-51
+intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:74:13-83:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:75:17-84
+	android:name
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml:75:25-81
+uses-sdk
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fd5b9c2fc46b03d2449f3cbc8a54e5ef\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fd5b9c2fc46b03d2449f3cbc8a54e5ef\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e838b5481c492ceedc5ca5a15f2a3bf2\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e838b5481c492ceedc5ca5a15f2a3bf2\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jaredrummler:android-device-names:1.0.9] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e6b5f959f2224a445082ac7a40269874\android-device-names-1.0.9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jaredrummler:android-device-names:1.0.9] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e6b5f959f2224a445082ac7a40269874\android-device-names-1.0.9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.loopj.android:android-async-http:1.4.10] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f5fa066fac9619c2d8e82a9aaf80fc7c\android-async-http-1.4.10\AndroidManifest.xml:5:5-7:41
+MERGED from [com.loopj.android:android-async-http:1.4.10] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f5fa066fac9619c2d8e82a9aaf80fc7c\android-async-http-1.4.10\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e62b664a7da8179b681e0ba5e128db88\firebase-analytics-17.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e62b664a7da8179b681e0ba5e128db88\firebase-analytics-17.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c2389d76c309809b40964003c177fc19\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c2389d76c309809b40964003c177fc19\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\51f01b99611ea10753ac1e1fd80182c8\play-services-measurement-sdk-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\51f01b99611ea10753ac1e1fd80182c8\play-services-measurement-sdk-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\458af15f79be616d1c5c4272ae43fbf1\firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\458af15f79be616d1c5c4272ae43fbf1\firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\7616b037e793989e9647a36da43e4bdd\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\7616b037e793989e9647a36da43e4bdd\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1b968f892df326498addd929eef924f8\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1b968f892df326498addd929eef924f8\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9b88e76ffb5f34f23408be424f3fe652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9b88e76ffb5f34f23408be424f3fe652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\092dbe7a70cec105ef7807f7046290d1\play-services-measurement-base-17.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\092dbe7a70cec105ef7807f7046290d1\play-services-measurement-base-17.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f8a04b33ef4231bcd4a5d4ab139094a3\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f8a04b33ef4231bcd4a5d4ab139094a3\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\b53f737ac92b11e5fa86f4776dabfdb5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\b53f737ac92b11e5fa86f4776dabfdb5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\d3e7feb23e7fc1eba46d7c93e34af8cd\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\d3e7feb23e7fc1eba46d7c93e34af8cd\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\810284fda6e539934c1cb5174efc60ee\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\810284fda6e539934c1cb5174efc60ee\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\4016cb2b88ac7a9a089e243d0b0fd703\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\4016cb2b88ac7a9a089e243d0b0fd703\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2aa083799241098451a46889113d9d53\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2aa083799241098451a46889113d9d53\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\0c3525bd17c323d710c5864877287245\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\0c3525bd17c323d710c5864877287245\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9bb895826294ca331928451bbfb194d1\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\9bb895826294ca331928451bbfb194d1\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\344783dcfa5992b0ba857801308c9fa3\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\344783dcfa5992b0ba857801308c9fa3\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\aff86238ec3560c290c4989e6b531796\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\aff86238ec3560c290c4989e6b531796\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a3c883bcf8c07e708c3340bd7a08dbf0\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a3c883bcf8c07e708c3340bd7a08dbf0\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1c02a75ee71745896421482ddb994222\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\1c02a75ee71745896421482ddb994222\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e477473681566b1c47f5aa9f6f8fc7b6\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\e477473681566b1c47f5aa9f6f8fc7b6\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\693445e3b20601b033da5481a8cfa0c6\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\693445e3b20601b033da5481a8cfa0c6\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c7f5b61e7e935dbc33e070459719d712\firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c7f5b61e7e935dbc33e070459719d712\firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a555939c01c78319a3857145138549dc\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a555939c01c78319a3857145138549dc\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fb8536e688627912ce315a69faedf9bf\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\fb8536e688627912ce315a69faedf9bf\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c433a1a3eccb0c53eb8336f30cb8a55d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c433a1a3eccb0c53eb8336f30cb8a55d\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\0f3a5b65568e8218397e87f0d7d489a4\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\0f3a5b65568e8218397e87f0d7d489a4\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a535ce4632b695e63434363e0a539568\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\a535ce4632b695e63434363e0a539568\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\ade1f8f7398959b97cd1e3f73b832e2e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\ade1f8f7398959b97cd1e3f73b832e2e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\523f04c89f6ac21800ce0da45e990780\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\523f04c89f6ac21800ce0da45e990780\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2a59c6f74ceb23eb92132a9b466446f9\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2a59c6f74ceb23eb92132a9b466446f9\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\d633bba8af30772bf4a18962bf1c33d7\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\d633bba8af30772bf4a18962bf1c33d7\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\09c38ea0049218b0fef5edc7e5d97d17\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\09c38ea0049218b0fef5edc7e5d97d17\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\cad7217547ddeb81a4a60b2478eaa044\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\cad7217547ddeb81a4a60b2478eaa044\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+		ADDED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+		INJECTED from E:\workspace\android_workspace\ReceivingSms\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:15:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:14:13-84
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:16:13-18:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:18:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\f0631933a8b02724afd90a31465efbd2\firebase-crashlytics-17.2.1\AndroidManifest.xml:17:17-115
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\388bab399b40f025afae779827a11b1d\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\50cdef5adecbc40f8737c93647cc35d1\play-services-measurement-impl-17.5.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\2cfc31fc8593cacc5d31309799b7f9c5\play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\835cd2527bfbcec92f40ca2d2b1d9578\play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\995e354cdb1029454ab9434390c41cdc\firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\3e5dbfd2dea8248e42504586ec44f7bf\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\8a39867bcd38c2f18c2c03a71e0e0d98\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c71e85c7251f7e615f8775ab4a3efde2\jetified-transport-backend-cct-2.3.1\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] C:\Users\Heracles\.gradle\caches\transforms-2\files-2.1\c334cb62559a200a7b20f35eb526ce10\jetified-transport-runtime-2.2.4\AndroidManifest.xml:33:13-132
